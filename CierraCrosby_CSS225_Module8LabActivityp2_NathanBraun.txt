@@ -1,0 +1,20 @@
+#Cierra Crosby
+#3/7/2024
+#CSS 225
+#Instructor Nathan Braun
+#Module 8 Lab activity
+
+# Online Python Playground
+# Use the online IDE to write, edit & run your Python code
+# Create, edit & delete files online
+#This program adds a number to a new number to get the results and compare the number 10 to print if the sum is less than, equal than, or more than 10.
+x = int(input())
+y = int(input())
+sum= (x + y)
+
+if sum<10:
+    print("This number is less than 10") 
+elif sum>10:
+    print("This number is greater than 10")
+elif sum==10:
+    print("This number is equal to 10")

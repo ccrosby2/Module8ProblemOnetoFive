@@ -1,0 +1,26 @@
+#Cierra Crosby
+#3/7/2024
+#CSS 225
+#Instructor Nathan Braun
+#Module 8 Lab activity
+
+# Online Python Playground
+# Use the online IDE to write, edit & run your Python code
+# Create, edit & delete files online
+#This programs prints if the number is divisble by 400 or 100 and prints if the number is in a leap year or not in a leap year.
+
+x=(100%2) and (400%2)
+n = 25
+if n == 4%2:
+    print(n % 2 == 0 or n % 3 == 0)
+    print ("This is a leap year")
+
+else:
+    print (False)
+    print("This is not a leap year")
+
+if x==(100%2) and (400%2):
+    print ("This is a leap year")
+
+else:
+    print("This is not a leap year")

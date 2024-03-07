@@ -1,0 +1,17 @@
+#Cierra Crosby
+#3/7/2024
+#CSS 225
+#Instructor Nathan Braun
+#Module 8 Lab activity
+
+# Online Python Playground
+# Use the online IDE to write, edit & run your Python code
+# Create, edit & delete files online
+#This program prints two numbers and checks if that number is equal to the second number.
+
+x = int(input())
+y = int(input())
+if x==y:
+    print("This number are equal to each other")
+else:
+    print("These numbers are not equal to other")

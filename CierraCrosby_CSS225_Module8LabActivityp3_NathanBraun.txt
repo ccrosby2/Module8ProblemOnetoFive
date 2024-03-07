@@ -1,0 +1,13 @@
+#Cierra Crosby
+#3/7/2024
+#CSS 225
+#Instructor Nathan Braun
+#Module 8 Lab activity
+
+# Online Python Playground
+# Use the online IDE to write, edit & run your Python code
+# Create, edit & delete files online
+#This programs prints a list of numbers and checks if the number"5" is in that list
+list = ["1","2","3","4","5"]
+if "5" in list:
+    print("5 is in the list")

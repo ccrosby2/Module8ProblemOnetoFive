@@ -1,0 +1,65 @@
+#Cierra Crosby
+#3/7/2024
+#CSS 225
+#Instructor Nathan Braun
+#Module 8 Lab activity
+
+# Online Python Playground
+# Use the online IDE to write, edit & run your Python code
+# Create, edit & delete files online
+#This program prints a list of items that are in the list or not in the list
+
+
+class character:
+    def __init__(self, nickname, weapons, weaknesses):
+        self.nickname = nickname
+        self.weapons = weapons
+        self.weaknesses = weaknesses
+
+    def get_model(self):
+        return self.nickname
+
+    def get_year(self):
+        return self.weapons
+
+    def get_color(self):
+        return self. weaknesses
+
+    def profile(self):
+        return self.nickname, self.weapons, self. weaknesses
+
+player1 = character('','','')
+player1.nickname = 'Dragon Slayer'
+player1.weapons = ['pan', 'paper', 'idea', 'rope', 'groceries']
+player1.weaknesses = ['slow']
+for item in player1.weapons:
+    print("Item: ", item)
+
+for debuff in player1.weaknesses:
+    print("Debuff: ", debuff)
+    
+def task_one():
+    if "first aid kit" in player1.weapons and "coat" in player1.weapons and "rope" in      player1.weapons and "slow" not in player1.weaknesses:
+
+        print ("We know we are able to Climb a mountain")
+
+    else:
+
+        print("We are not goint to Climb the mountain") 
+
+def task_two():
+
+    if "needs pan" in player1.weapons and "groceries" in player1.weapons and "small" not in player1.weaknesses:
+
+        print ("We about to cook a meal")
+
+    else:
+
+        print("We are not going to cook")
+
+
+def task_three():
+    if "pen" in player1.weapons and "paper" in player1.weapons and "idea" in player1.weapons and "confusion" not in player1.weaknesses:
+        print ("We can write a book")
+    else:
+        print("We arent writiing a book")
